@@ -4,15 +4,30 @@
 }
 .container {
   padding: 1rem 20rem;
+  text-align: center;
+  max-width: 50vw;
 }
-.img yuvarlak {
-  border-radius: 50%;
+
+.boşluk-bırakmaca li {
+  display: inline-block;
+  margin-right: 10px;
 }
-.container .boşluk-bırakmaca li {
-  list-style: none;
+
+p {
+  justify-content: center;
 }
 
 .flex-item {
   width: 200px;
   padding: 15px;
+}
+
+.footer-shb ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.footer-shb img {
+  width: 1000px;
+  height: auto;
 }
